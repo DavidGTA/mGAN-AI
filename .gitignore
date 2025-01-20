@@ -1,0 +1,27 @@
+# IntelliJ project files
+.idea
+# IntelliJ project configuration
+.vscode
+# Visual Studio Code settings folder
+*.iml
+# IntelliJ module files
+out
+# Compiled output directories (IntelliJ)
+gen
+# Generated files
+
+# Ignoring model checkpoints, MNIST data, experiment results, and logs
+models/checkpoints/*
+# Model checkpoints
+data/MNIST/*
+# MNIST dataset files
+experiments/results/*
+# Experiment result files
+logs/*
+# Log files
+
+# Python bytecode and cache
+__pycache__/
+# Python's cache directory
+*.pyc
+# Python compiled bytecode files
